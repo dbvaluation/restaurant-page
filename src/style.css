@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+
+header>ul {
+    color: lightgray;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 0 5px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: white;
+}
+
+#Home,
+#Menu,
+#Contact {
+    color: white;
+}
