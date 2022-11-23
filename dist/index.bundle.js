@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    font-family: 'Josefin Sans', sans-serif;\r\n    background-color: black;\r\n}\r\n\r\nheader>ul {\r\n    color: lightgray;\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nli {\r\n    padding: 0 5px;\r\n}\r\n\r\nli:hover {\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n    text-underline-offset: 5px;\r\n    color: white;\r\n}\r\n\r\n#Home,\r\n#Menu,\r\n#Contact {\r\n    color: white;\r\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AACA;IACI,uCAAuC;IACvC,uBAAuB;AAC3B;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,eAAe;IACf,0BAA0B;IAC1B,0BAA0B;IAC1B,YAAY;AAChB;;AAEA;;;IAGI,YAAY;AAChB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');\r\nbody {\r\n    font-family: 'Josefin Sans', sans-serif;\r\n    background-color: black;\r\n}\r\n\r\nheader>ul {\r\n    color: lightgray;\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nli {\r\n    padding: 0 5px;\r\n}\r\n\r\nli:hover {\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n    text-underline-offset: 5px;\r\n    color: white;\r\n}\r\n\r\n#Home,\r\n#Menu,\r\n#Contact {\r\n    color: white;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    box-sizing: border-box;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    z-index: 999;\r\n}\r\n\r\nbody {\r\n    height: 100vh;\r\n    font-family: 'Josefin Sans', sans-serif;\r\n    background-color: black;\r\n    display: grid;\r\n    grid-template-rows: 50px 1fr 40px;\r\n}\r\n\r\n#welcome-text {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-bottom: 20px;\r\n}\r\n\r\nheader {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 40px;\r\n    background: black;\r\n    background-color: black;\r\n}\r\n\r\nheader>ul {\r\n    background: inherit;\r\n    color: lightgray;\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nli {\r\n    background: inherit;\r\n    padding: 0 5px;\r\n}\r\n\r\nli:hover {\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n    text-underline-offset: 5px;\r\n    color: white;\r\n}\r\n\r\n#Home,\r\n#Menu,\r\n#Contact {\r\n    color: white;\r\n}\r\n\r\nfooter {\r\n    padding-top: 10px;\r\n    color: white;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background: black;\r\n}\r\n\r\n#content {\r\n    color: white;\r\n    padding-top: 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n\r\n#home-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n#left-div {\r\n    margin-top: 40px;\r\n    display: grid;\r\n    grid-template-columns: 200px 250px;\r\n    column-gap: 50px;\r\n}\r\n\r\n#paragraph-1 {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-style: italic;\r\n}\r\n\r\n#right-div {\r\n    margin-top: 40px;\r\n    display: grid;\r\n    grid-template-columns: 200px 250px;\r\n    column-gap: 50px;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#paragraph-2 {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-style: italic;\r\n}\r\n\r\nimg {\r\n    width: 200px;\r\n    border-radius: 10px;\r\n}\r\n\r\n#menu-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AACA;IACI,WAAW;IACX,YAAY;IACZ,sBAAsB;IACtB,4BAA4B;IAC5B,2BAA2B;IAC3B,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,uCAAuC;IACvC,uBAAuB;IACvB,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,oBAAoB;AACxB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,YAAY;IACZ,iBAAiB;IACjB,uBAAuB;AAC3B;;AAEA;IACI,mBAAmB;IACnB,gBAAgB;IAChB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;IACnB,cAAc;AAClB;;AAEA;IACI,eAAe;IACf,0BAA0B;IAC1B,0BAA0B;IAC1B,YAAY;AAChB;;AAEA;;;IAGI,YAAY;AAChB;;AAEA;IACI,iBAAiB;IACjB,YAAY;IACZ,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,YAAY;IACZ,iBAAiB;IACjB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,kCAAkC;IAClC,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;AACtB;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,kCAAkC;IAClC,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,2BAA2B;AAC/B","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');\r\n* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    box-sizing: border-box;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    z-index: 999;\r\n}\r\n\r\nbody {\r\n    height: 100vh;\r\n    font-family: 'Josefin Sans', sans-serif;\r\n    background-color: black;\r\n    display: grid;\r\n    grid-template-rows: 50px 1fr 40px;\r\n}\r\n\r\n#welcome-text {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-bottom: 20px;\r\n}\r\n\r\nheader {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 40px;\r\n    background: black;\r\n    background-color: black;\r\n}\r\n\r\nheader>ul {\r\n    background: inherit;\r\n    color: lightgray;\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nli {\r\n    background: inherit;\r\n    padding: 0 5px;\r\n}\r\n\r\nli:hover {\r\n    cursor: pointer;\r\n    text-decoration: underline;\r\n    text-underline-offset: 5px;\r\n    color: white;\r\n}\r\n\r\n#Home,\r\n#Menu,\r\n#Contact {\r\n    color: white;\r\n}\r\n\r\nfooter {\r\n    padding-top: 10px;\r\n    color: white;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background: black;\r\n}\r\n\r\n#content {\r\n    color: white;\r\n    padding-top: 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n\r\n#home-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n#left-div {\r\n    margin-top: 40px;\r\n    display: grid;\r\n    grid-template-columns: 200px 250px;\r\n    column-gap: 50px;\r\n}\r\n\r\n#paragraph-1 {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-style: italic;\r\n}\r\n\r\n#right-div {\r\n    margin-top: 40px;\r\n    display: grid;\r\n    grid-template-columns: 200px 250px;\r\n    column-gap: 50px;\r\n    margin-bottom: 50px;\r\n}\r\n\r\n#paragraph-2 {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-style: italic;\r\n}\r\n\r\nimg {\r\n    width: 200px;\r\n    border-radius: 10px;\r\n}\r\n\r\n#menu-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -168,7 +168,7 @@ class Contact {
 
     addContent() {
         const element = document.createElement('div')
-        element.innerText = 'Contact div'
+        element.innerText = 'We are located at Tatooine, everyone\'s welcome!'
         element.id = 'Contact'
         this.parent.appendChild(element)
     }
@@ -179,6 +179,27 @@ class Contact {
 
 
 
+
+/***/ }),
+
+/***/ "./src/Footer.js":
+/*!***********************!*\
+  !*** ./src/Footer.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Footer)
+/* harmony export */ });
+function Footer() {
+
+    /*Footer Creation*/
+    const footer = document.createElement('footer')
+    footer.innerText = 'dbvaluation'
+    document.body.appendChild(footer)
+    return
+}
 
 /***/ }),
 
@@ -232,18 +253,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Home": () => (/* binding */ Home)
 /* harmony export */ });
+/* harmony import */ var _images_img_1_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/img-1.jpeg */ "./src/images/img-1.jpeg");
+/* harmony import */ var _images_img_2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/img-2.jpg */ "./src/images/img-2.jpg");
+
+
+
 class Home {
     constructor(parent) {
         this.parent = parent;
     }
 
     addContent() {
-        const element = document.createElement('div')
-        element.innerText = 'Home div'
-        element.id = 'Home'
-        this.parent.appendChild(element)
-    }
 
+        // element creation
+        const homeWrapper = document.createElement('div')
+        const barName = document.createElement('h1')
+        const barDescription = document.createElement('p')
+        const leftDiv1 = document.createElement('div')
+        const rightDiv1 = document.createElement('div')
+        const img1 = document.createElement('img')
+        const paragraph1 = document.createElement('p')
+        const img2 = document.createElement('img')
+        const paragraph2 = document.createElement('p')
+        // ID decleration
+
+        homeWrapper.id = 'home-wrapper'
+        barDescription.id = 'bar-description'
+        barName.id = 'bar-name'
+        leftDiv1.id = 'left-div'
+        rightDiv1.id = 'right-div'
+        img1.id = 'image-1'
+        paragraph1.id = 'paragraph-1'
+        img2.id = 'image-2'
+        paragraph2.id = 'paragraph-2'
+
+        //content
+        paragraph1.innerText = 'Make pleasant conversation and try to laugh at bad jokes.'
+        barName.innerText = `EXPIRIENCE MOS EISLEY CANTINA`
+        paragraph2.innerText = 'Enjoy the band.'
+        leftDiv1.appendChild(img1)
+        leftDiv1.appendChild(paragraph1)
+        rightDiv1.appendChild(paragraph2)
+        rightDiv1.appendChild(img2)
+        img1.src = _images_img_1_jpeg__WEBPACK_IMPORTED_MODULE_0__
+        img2.src = _images_img_2_jpg__WEBPACK_IMPORTED_MODULE_1__
+
+        homeWrapper.appendChild(barName)
+        homeWrapper.appendChild(barDescription)
+        homeWrapper.appendChild(leftDiv1)
+        homeWrapper.appendChild(rightDiv1)
+        this.parent.appendChild(homeWrapper)
+
+    }
 
 }
 
@@ -263,19 +324,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Menu": () => (/* binding */ Menu)
 /* harmony export */ });
+/* harmony import */ var _images_food_1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/food-1.jpg */ "./src/images/food-1.jpg");
+/* harmony import */ var _images_food_2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/food-2.jpg */ "./src/images/food-2.jpg");
+
+
+
 class Menu {
     constructor(parent) {
         this.parent = parent;
     }
 
     addContent() {
-        const element = document.createElement('div')
-        element.innerText = 'Menu div'
-        element.id = 'Menu'
-        this.parent.appendChild(element)
+        const menuWrapper = document.createElement('div')
+        const menuTitle = document.createElement('h1')
+        const leftDiv = document.createElement('div')
+        const rightDiv = document.createElement('div')
+        const img1 = document.createElement('img')
+        const img2 = document.createElement('img')
+        const paragraph1 = document.createElement('p')
+        const paragraph2 = document.createElement('p')
+
+        // ID-s
+        menuWrapper.id = 'menu-wrapper'
+        menuTitle.id = 'menu-title'
+        leftDiv.id = 'left-div'
+        rightDiv.id = 'right-div'
+        paragraph1.id = 'paragraph-1'
+        paragraph2.id = 'paragraph-2'
+
+        paragraph1.innerText = 'Delicios Roasted Porg'
+        paragraph2.innerText = 'Portion Bread'
+        menuTitle.innerText = 'MENU'
+        img1.src = _images_food_1_jpg__WEBPACK_IMPORTED_MODULE_0__
+        img2.src = _images_food_2_jpg__WEBPACK_IMPORTED_MODULE_1__
+
+        //content
+        leftDiv.appendChild(img1)
+        leftDiv.appendChild(paragraph1)
+        rightDiv.appendChild(paragraph2)
+        rightDiv.appendChild(img2)
+
+        menuWrapper.appendChild(menuTitle)
+        menuWrapper.appendChild(leftDiv)
+        menuWrapper.appendChild(rightDiv)
+        this.parent.appendChild(menuWrapper)
     }
-
-
 }
 
 
@@ -642,6 +735,46 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/images/food-1.jpg":
+/*!*******************************!*\
+  !*** ./src/images/food-1.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3d1ff21733c4f6e70b5c.jpg";
+
+/***/ }),
+
+/***/ "./src/images/food-2.jpg":
+/*!*******************************!*\
+  !*** ./src/images/food-2.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e34954b48bf6a7e23658.jpg";
+
+/***/ }),
+
+/***/ "./src/images/img-1.jpeg":
+/*!*******************************!*\
+  !*** ./src/images/img-1.jpeg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "797112f46894615dc898.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/img-2.jpg":
+/*!******************************!*\
+  !*** ./src/images/img-2.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "280b7db1abe36637382d.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -695,6 +828,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -709,6 +854,26 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -727,8 +892,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.js */ "./src/Home.js");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/Header.js");
-/* harmony import */ var _Contact_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contact.js */ "./src/Contact.js");
-/* harmony import */ var _Menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Menu.js */ "./src/Menu.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./src/Footer.js");
+/* harmony import */ var _Contact_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact.js */ "./src/Contact.js");
+/* harmony import */ var _Menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Menu.js */ "./src/Menu.js");
+
+
+
 
 
 
@@ -740,19 +909,28 @@ __webpack_require__.r(__webpack_exports__);
 
 const parent = document.createElement('div')
 parent.id = 'content'
+//Welcome screen
+const welcomeText = document.createElement('h1')
+welcomeText.innerText = 'Welcome to Mos Eisley Cantina'
+welcomeText.id = 'welcome-text'
+parent.appendChild(welcomeText)
 document.body.appendChild(parent)
 const home = new _Home_js__WEBPACK_IMPORTED_MODULE_0__.Home(parent)
-const menu = new _Menu_js__WEBPACK_IMPORTED_MODULE_4__.Menu(parent)
-const contact = new _Contact_js__WEBPACK_IMPORTED_MODULE_3__.Contact(parent)
+const menu = new _Menu_js__WEBPACK_IMPORTED_MODULE_5__.Menu(parent)
+const contact = new _Contact_js__WEBPACK_IMPORTED_MODULE_4__.Contact(parent)
 
 const homeHeader = document.querySelector('#home-header')
 const menuHeader = document.querySelector('#menu-header')
 const contactHeader = document.querySelector('#contact-header')
 
+;(0,_Footer__WEBPACK_IMPORTED_MODULE_3__["default"])()
+
+
 homeHeader.addEventListener('click', () => {
     while (parent.firstChild) {
         parent.removeChild(parent.firstChild)
     }
+
 
     homeHeader.style.textDecoration = 'underline'
     homeHeader.style.textUnderlineOffset = '5px'

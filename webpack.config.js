@@ -9,6 +9,7 @@ module.exports = {
         Home: './src/Home.js',
         Menu: './src/Menu.js',
         Contact: './src/Contact.js',
+        Footer: './src/Footer.js',
     },
     output: {
         filename: '[name].bundle.js',
@@ -25,9 +26,13 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
+            {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
             }
-        ]
+        ],
     }
 };
